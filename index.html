@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+
+<body>
+  <header class="first_div">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" ->
+          <!--class="collapse navbar-collapse" id="navbarSupportedContent"-->
+          <a class="navbar-brand" href="#"><img src="./assets/img/logo1.png" alt="logo"></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                HOME
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Home 01</a></li>
+                <li><a class="dropdown-item" href="#">Home 02</a></li>
+                <li><a class="dropdown-item" href="#">Home 03</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                MOVIES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Movie grid</a></li>
+                <li><a class="dropdown-item" href="#">Movie list</a></li>
+                <li><a class="dropdown-item" href="#">Movie single</a></li>
+                <li><a class="dropdown-item" href="#">Series single</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                CELEBRITIES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">celebrity grid 01</a></li>
+                <li><a class="dropdown-item" href="#">celebrity grid 02</a></li>
+                <li><a class="dropdown-item" href="#">celebrity list</a></li>
+                <li><a class="dropdown-item" href="#">celebrity single</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                NEWS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">blog List</a></li>
+                <li><a class="dropdown-item" href="#">blog Grid</a></li>
+                <li><a class="dropdown-item" href="#">blog Detail</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                COMMUNITY
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">user favorite grid</a></li>
+                <li><a class="dropdown-item" href="#">user favorite list</a></li>
+                <li><a class="dropdown-item" href="#">user profile</a></li>
+                <li><a class="dropdown-item" href="#">user rate</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" ->
+          <!--class="collapse navbar-collapse" id="navbarSupportedContent"-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Landing</a></li>
+                <li><a class="dropdown-item" href="#">404 Page</a></li>
+                <li><a class="dropdown-item" href="#">Coming soon</a></li>
+              </ul>
+            </li>
+            <li class="Help">
+              <a  href="#">
+                Help
+                <i class="fa-solid fa-search"></i>
+              </a>
+            </li>
+            <li class="log-in">
+              <a  class="login-link" href="#" id="loginBtn">
+                Log In
+              </a>
+             <div class="my-modal d-none">
+                <div class="FOR-LOGIN">
+                  <i class="fa-solid fa-xmark close-btn"></i>
+                    <h2>LOGIN</h2>
+                    <p>Username:</p>
+                    <input class="hamodi" type="text" value="ahmad" required>
+                    <span class="span">Password:</span>
+                    <input class="soso" type="password" value="ahmad" required>
+                    <input class="samer" type="checkbox">
+                    <span class="Remember">Remember me
+                    </span>
+                    <button type="submit">Login</button>
+                    <a href="#" class="facebook">Facebook</a>
+                    <a href="#" class="instagram">Twitter</a>
+
+                </div>
+            </div>
+            </li>
+            <li class="sign-up">
+              <a  class="signup-link" href="#" id="signupBtn">
+                Sign-up
+              </a>
+              <div class="my-modal-sign d-none">
+                <div class="for-sign-up">
+                  <i class="fa-solid fa-xmark close-button"></i>
+                  <h2>SIGN UP</h2>
+                  <p class="username">Username:</p>
+                  <input class="hamodi" type="text" value="ahmad" required>
+                  <span class="Email">Email:</span>
+                  <input class="for-email" type="email" value="ahmad@gmail.com" required>
+                  <p class="password-p">Password</p>
+                  <input class="password" type="password" value="ahmad" required>
+                  <p class="re-type">re-type Password:</p>
+                  <input class="re-password" type="password" value="ahmad" required>
+                  <button type="submit">sign up</button>
+                </div>
+              </div>
+            </div>
+            </li>
+            
+          </ul>
+          
+        </div>
+
+      </div>
+
+
+
+    </nav>
+
+    <div class="container-fluid">
+      <div class="top-search">
+        <select>
+          <option value="united">TV show</option>
+          <option value="saab">Others</option>
+        </select>
+        <input type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for">
+      </div>
+    </div>
+
+    <div class="slider movie-items">
+      <div class="container-fluid">
+
+        <div class="social-link">
+          <p class="text-light">Follow us: </p>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <div class="slider-container">
+          <div class="slider-row">
+            <img src="./assets/img/sliders/mv-item1.jpg" alt="the revenant img" class="slider-img">
+            <img src="./assets/img/sliders/mv-item2.jpg" alt="the revenant img" class="slider-img">
+            <img src="./assets/img/sliders/mv-item3.jpg" alt="the revenant img" class="slider-img">
+            <img src="./assets/img/sliders/mv-item4.jpg" alt="the revenant img" class="slider-img">
+            <img src="./assets/img/sliders/mv-item5.jpg" alt="the revenant img" class="slider-img">
+            <img src="./assets/img/sliders/mv-item6.jpg" alt="the revenant img" class="slider-img">
+            <img src="./assets/img/sliders/mv-item7.jpg" alt="the revenant img" class="slider-img">
+            <img src="./assets/img/sliders/mv-item8.jpg" alt="the revenant img" class="slider-img">
+          </div>
+        </div>
+        
+        <div class="slider-buttons">
+          <button class="slider-btn" data-slide="0"></button>
+          <button class="slider-btn" data-slide="1"></button>
+        </div>
+        <!--<div class="sliderss">
+         <img src="./assets/img/sliders/mv-item1.jpg" alt="the revenant img" class="slider-img sliderss--img">
+          <img src="./assets/img/sliders/mv-item2.jpg" alt="the revenant img" class="slider-img sliderss--img">
+          <img src="./assets/img/sliders/mv-item3.jpg" alt="the revenant img" class="slider-img sliderss--img">
+          <img src="./assets/img/sliders/mv-item4.jpg" alt="the revenant img" class="slider-img ">
+          <img src="./assets/img/sliders/mv-item5.jpg" alt="the revenant img" class="slider-img">
+          <img src="./assets/img/sliders/mv-item6.jpg" alt="the revenant img" class="slider-img">
+          <img src="./assets/img/sliders/mv-item7.jpg" alt="the revenant img" class="slider-img">
+          <img src="./assets/img/sliders/mv-item8.jpg" alt="the revenant img" class="slider-img">
+
+        </div>-->
+        
+      </div>
+      </div>
+
+
+  </header>
+
+  <section class="theater">
+    <div class="container-fluid">
+      <div class="row-2">
+        <div class="container-left">
+          <div class="left">
+            <div class="in-theater">
+              <div class="title-hd">
+                <h2>in theater</h2>
+                <a href="#" class="viewall">View all <i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+  
+              <div class="tabs">
+                <div class="for-linking">
+                  <div class="link">
+                    <ul class="tab-links">
+                      <li class="active-li"><a href="#tab1">#Popular</a></li>
+                      <li><a href="#tab2"> #Coming soon</a></li>
+                      <li><a href="#tab3">  #Top rated  </a></li>
+                      <li><a href="#tab4"> #Most reviewed</a></li>                        
+                    </ul>
+                  </div>
+                  <div class="buttons-links"><!--change buttons-->
+                    <button class="slider-btn-links bt1" data-slide="0"></button>
+                    <button class="slider-btn-links bt1" data-slide="1"></button>
+                    <button class="slider-btn-links bt1" data-slide="2"></button>
+                  </div>
+                </div>
+  
+                <div class="for-img-link">
+                  <div class="movie-list">
+                    
+                  </div>
+                </div>
+  
+              </div>
+              
+            </div>
+            <div class="on-tv">
+              
+            </div>
+          </div>
+        </div>
+        <div class="container-right">
+          <div class="right">
+            <img src="./assets/img/ads1.png" alt="">
+            <h4 class="sb-title">Spotlight Celebrities</h4>
+            <div class="celeb">
+              <div class="celeb-img">
+                <img src="./assets/img/celebs/ava1.jpg" alt="">
+              </div>
+              <div class="celeb-author">
+								<h6><a href="#">Samuel N. Jack</a></h6>
+								<span>Actor</span>
+							</div>
+            </div>
+            <div class="celeb">
+              <div class="celeb-img">
+                <img src="./assets/img/celebs/ava2.jpg" alt="">
+              </div>
+              <div class="celeb-author">
+								<h6><a href="#">
+                  Benjamin Carroll</a></h6>
+								<span>Actor</span>
+							</div>
+            </div>
+            <div class="celeb">
+              <div class="celeb-img">
+                <img src="./assets/img/celebs/ava3.jpg" alt="">
+              </div>
+              <div class="celeb-author">
+								<h6><a href="#">
+                  Beverly Griffin </a></h6>
+								<span>Actor</span>
+							</div>
+            </div>
+            <div class="celeb">
+              <div class="celeb-img">
+                <img src="./assets/img/celebs/ava4.jpg" alt="">
+              </div>
+              <div class="celeb-author">
+								<h6><a href="#">
+                  Justin Weaver</a></h6>
+								<span>Actor</span>
+							</div>
+            </div>
+            <a href="#" class="see-all">See all celebrities <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+
+  <section class="trailer">
+    
+    <div class="container-fluid">
+      <div class="head-for-trailer">
+        <h2>in theater</h2>
+        <a href="#" class="viewall">View all <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+      <div class="trailer-slider">
+        <div class="main-slider">
+        <iframe width="660" height="510" src="https://www.youtube.com/embed/zSWdZVtXT7E?si=eJgOGJ132WOLGzA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <div class="second-slides">
+          <div class="for-button"><button disabled><i class="fa-solid fa-chevron-up"></i></button></div>
+          
+         <div class="trailer-img">
+          <!-- <img src="./assets/img/trailers/trailer1.jpg" alt="intersteller">
+          <div class="trailer-info">
+            <h4>Intersteller</h4>
+            <p>255</p>
+          </div>-->
+          <div class="container-slider-y">
+            <div class="row-y-slider">
+              
+            </div>
+          </div>
+          </div>
+
+          <div class="for-button"><button><i class="fa-solid fa-chevron-down"></i></button></div>
+        </div>
+
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="before-footer">
+    <div class="container-fluid">
+      <div class="Fcontainer">
+        <div class="container">
+          <img src="./assets/img/ads2.png" alt="ads-2" class="ads-2">
+          <h2>Latest news</h2>
+          <div class="photo_pa">
+            <div class="photo">
+              <img src="./assets/img/Actor.jpg" alt="photo1">
+            </div>
+            <div class="info">
+              <a href="#">Brie Larson to play first female white house candidate Victoria Woodull in Amazon film</a>
+              <span>13 hours ago</span>
+              <p>Exclusive: Amazon Studios has acquired Victoria Woodhull, with Oscar winning Room star Brie Larson
+                polsed to produce, and play the first female candidate for the presidency of the United States. Amazon
+                bought it in a pitch package deal. Ben Kopit, who wrote the Warner Bros film Libertine that has...</p>
+            </div>
+          </div>
+
+          <div class="for-this-section">
+            <h3>More news on Blockbuster</h3>
+            <a href="#">See all Movies news></a>
+          </div>
+
+          <div class="more-info">
+            <div class="about">
+              <a href="#"> Michael Shannon Frontrunner to play Cable in "Deadpool"</a>
+              <span>13 hours ago</span>
+            </div>
+            <div class="about">
+              <a href="#"> Laura Dern in talks to join Justin Kelly’s biopic "JT Leroy"</a>
+              <span>13 hours ago</span>
+            </div>
+            <div class="about">
+              <a href="#"> French cannibal horror “Raw” inspires L.A. theater to hand out "Barf Bags"</a>
+              <span>13 hours ago</span>
+            </div>
+            <div class="about">
+              <a href="#">China punishes more than 300 cinemas for box office cheating</a>
+              <span>13 hours ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="container2">
+          <h4 class="sb-title">Find us on Facebook</h4>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="start">
+            <div class="logo">
+              <img src="./assets/img/logo1.png" />
+
+            </div>
+            <p>5th Avenue st, manhattan
+              New York, NY 10001. </p>
+            <p>Call us: (+01) 202 342 6789</p>
+          </div>
+          <div class="end">
+            <div class="footer-itmes">
+              <h2>Resources</h2>
+              <nav>
+                <a href="#">About</a>
+                <a href="#">Blockbuster</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Forums</a>
+                <a href="#">Blog</a>
+                <a href="#">Help Center</a>
+              </nav>
+            </div>
+            <div class="footer-itmes">
+              <h2>Legal</h2>
+              <nav>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Security</a>
+              </nav>
+            </div>
+            <div class="footer-itmes">
+              <h2>Account</h2>
+              <nav>
+                <a href="#">My Account</a>
+                <a href="#">Watchlist</a>
+                <a href="#">Collections</a>
+                <a href="#">User Guide</a>
+              </nav>
+            </div>
+            <div class="footer-itmes">
+              <h2>Contact Us</h2>
+              <p>Subscribe to our newsletter system now
+                to get latest news from us.</p>
+              <div class="input-container">
+                <input type="email" placeholder="Enter your email..." />
+                <span class="icon">
+                  <img src="./assets/img/search-bg.png" alt="icon" />
+                </span>
+              </div>
+
+              <a href="#" class="btn">Subscribe now <i class="ion-ios-arrow-forward"></i></a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </footer>
+
+  
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
